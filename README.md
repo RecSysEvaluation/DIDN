@@ -8,7 +8,7 @@
 <ul>
   <li>Download and install Docker from <a href="https://www.docker.com/">https://www.docker.com/</a></li>
   <li>Run the following command to pull the Docker Image from the Docker Hub: <code>docker pull shefai/intent_aware_recomm_systems</code>
-  <li>Clone the GitHub repository by using the link: <code>https://github.com/Faisalse/DIDN.git</code>
+  <li>Clone the GitHub repository by using the link: <code>https://github.com/RecSysEvaluation/DIDN.git</code>
   <li>Move into the <b>DIDN</b> directory</li>
   
   <li>Run the command to mount the current directory <i>DIDN</i> to the docker container named as <i>Intent_Aware_container</i>: <code>docker run --name Intent_Aware_container  -it -v "$(pwd):/DIDN" -it shefai/intent_aware_recomm_systems</code>. If you have the support of CUDA-capable GPUs then run the following command to attach GPUs with the container: <code>docker run --name Intent_Aware_container  -it --gpus all -v "$(pwd):/DIDN" -it shefai/intent_aware_recomm_systems</code></li> 
@@ -18,7 +18,7 @@
 <h5>Using Anaconda</h5>
   <ul>
     <li>Download Anaconda from <a href="https://www.anaconda.com/">https://www.anaconda.com/</a> and install it</li>
-    <li>Clone the GitHub repository by using this link: <code>https://github.com/Faisalse/DIDN.git</code></li>
+    <li>Clone the GitHub repository by using this link: <code>https://github.com/RecSysEvaluation/DIDN.git</code></li>
     <li>Open the Anaconda command prompt</li>
     <li>Move into the <b>DIDN</b> directory</li>
     <li>Run this command to create virtual environment: <code>conda create --name Intent_Aware_env python=3.8</code></li>
